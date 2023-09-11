@@ -1,0 +1,20 @@
+header {
+  text-align: center;
+  background-color: aqua;
+  color: black;
+}
+
+
+footer::after{
+  content: "";
+  display: block;
+  clear: both;
+background-color: blue;
+color: azure;
+}
+content::after{ 
+  content: "";
+  display: block;
+ 
+}
+
